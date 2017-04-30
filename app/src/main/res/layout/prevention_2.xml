@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/thunderclap_red_card_banner"
+                android:id="@+id/imageView"
+                android:adjustViewBounds="true" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg"
+                android:layout_margin="16dp"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:layout_width="183dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Wear protective clothing"
+                    android:textStyle="normal|bold"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingBottom="16dp"
+                    android:textColor="#000000"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="When you go into mosquito-infested areas, wear a long-sleeved shirt, long pants, socks and shoes."
+                    android:layout_below="@+id/textView8"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ff"
+                    android:id="@+id/imageView5"
+                    android:elevation="0dp"
+                    android:adjustViewBounds="true"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentEnd="false"
+                    android:cropToPadding="false" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

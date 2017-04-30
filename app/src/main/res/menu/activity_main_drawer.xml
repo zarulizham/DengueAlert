@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/info"
+            android:title="Introduction" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/stat"
+            android:title="Statistics" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/trend"
+            android:title="Dengue Trends" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/symptom"
+                android:icon="@mipmap/diag"
+                android:title="Symptoms" />
+
+            <item
+                android:id="@+id/prevention"
+                android:icon="@mipmap/pre"
+                android:title="Prevention" />
+
+            <!--<item-->
+                <!--android:id="@+id/noti"-->
+                <!--android:icon="@mipmap/noti"-->
+                <!--android:title="Demo Notification" />-->
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Cases"
+                android:id="@+id/btn1"
+                android:drawableLeft="@mipmap/stats"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:padding="6dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/btn1" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cases Comparison"
+                android:id="@+id/btn2"
+                android:drawableLeft="@mipmap/web"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:padding="6dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/btn2" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dengue Hotspot Map"
+                android:id="@+id/btn3"
+                android:drawableLeft="@mipmap/hotspot"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:padding="6dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/btn3" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forecasting"
+                android:id="@+id/btn4"
+                android:drawableLeft="@mipmap/compare"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:padding="6dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/btn4" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

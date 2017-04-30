@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:text="1. High Fever"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_marginBottom="16dp"
+                android:textStyle="normal|bold"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#000000">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/fever"
+                    android:id="@+id/imageView6"
+                    android:adjustViewBounds="true" />
+            </LinearLayout>
+
+            <TextView
+                android:text="It's usually a symptom of an underlying condition, most often an infection."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_marginTop="16dp"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dengue Alert</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="intro">
+        Table below shows real time data for dengue cases in Malaysia.
+    </string>
+
+    <string name="intro2">
+        Figure below shows the total number of cases and death in between 2010 and 2015
+    </string>
+</resources>

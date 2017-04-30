@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:text="3. Muscle Pain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_marginBottom="16dp"
+                android:textStyle="normal|bold"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:background="#000000"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/musclepain"
+                    android:id="@+id/imageView6"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <TextView
+                android:text="Symptom of many diseases and disorders of overuse or over-stretching of a muscle or group of muscles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:layout_marginTop="16dp"
+                android:gravity="center" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/radar1"
+        android:orderInCategory="100"
+        android:title="2010"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/radar2"
+        android:orderInCategory="100"
+        android:title="2011"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/radar3"
+        android:orderInCategory="100"
+        android:title="2012"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/radar4"
+        android:orderInCategory="100"
+        android:title="2013"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/radar5"
+        android:orderInCategory="100"
+        android:title="2014"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/radar6"
+        android:orderInCategory="100"
+        android:title="2015"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/radar7"
+        android:orderInCategory="100"
+        android:title="2016"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/info"
+        android:orderInCategory="100"
+        android:title="Info."
+        app:showAsAction="ifRoom" />
+</menu>
